@@ -18,5 +18,15 @@ namespace MoviesRental.Controllers
             };
             return View(movies);
         }
+
+        public ActionResult GetID(int id)
+        {
+            return Content($"id = {id}");
+        }
+
+        public ActionResult ReleasedDate(int year, byte month)
+        {
+            return Content($"year = {year}, month = {month}");
+        }
     }
 }
