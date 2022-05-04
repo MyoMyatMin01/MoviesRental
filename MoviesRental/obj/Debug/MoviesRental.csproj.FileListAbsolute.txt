@@ -77,3 +77,7 @@ D:\C#_Projects\MoviesRental\MoviesRental\obj\Debug\MoviesRental.csproj.CoreCompi
 D:\C#_Projects\MoviesRental\MoviesRental\obj\Debug\MoviesRental.csproj.CopyComplete
 D:\C#_Projects\MoviesRental\MoviesRental\obj\Debug\MoviesRental.dll
 D:\C#_Projects\MoviesRental\MoviesRental\obj\Debug\MoviesRental.pdb
+D:\C#_Projects\MoviesRental\MoviesRental\bin\EntityFramework.dll
+D:\C#_Projects\MoviesRental\MoviesRental\bin\EntityFramework.SqlServer.dll
+D:\C#_Projects\MoviesRental\MoviesRental\bin\EntityFramework.xml
+D:\C#_Projects\MoviesRental\MoviesRental\bin\EntityFramework.SqlServer.xml

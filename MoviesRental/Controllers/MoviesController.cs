@@ -19,11 +19,13 @@ namespace MoviesRental.Controllers
             return View(movies);
         }
 
+        [Route("Movie/ID/{id}")]
         public ActionResult GetID(int id)
         {
             return Content($"id = {id}");
         }
 
+        [Route("Movie/Released/{year}/{month:regex(\\d{2}):range(1, 12)}")]
         public ActionResult ReleasedDate(int year, byte month)
         {
             return Content($"year = {year}, month = {month}");
