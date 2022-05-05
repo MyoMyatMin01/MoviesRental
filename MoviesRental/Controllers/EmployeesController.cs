@@ -17,7 +17,7 @@ namespace MoviesRental.Controllers
         // GET: Employees
         public ActionResult Index()
         {
-            return View(db.Employees.ToList());
+            return View(db.Employees.Include("Department").ToList());
         }
 
         // GET: Employees/Details/5
@@ -46,7 +46,7 @@ namespace MoviesRental.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Job")] Employee employee)
+        public ActionResult Create([Bind(Include = "Id,Name,Job,Department")] Employee employee)
         {
             if (ModelState.IsValid)
             {
